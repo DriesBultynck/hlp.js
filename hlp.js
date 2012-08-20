@@ -9,23 +9,14 @@ Samuel Debruyn - about.me/samueldebruyn
 2) Keep plugin code in the external file 'hlp.js'.
 3) Use comments like this one.
 
--- TODO --
-
-Weird stuff with youtube & vimeo. I guess they're using some kind of block/script.
-Didn't check other video sites (yet).
-
-Need to check url shorteners as well!!
-
+-- TO DO --
 
 1) Cleaning up code with focus on SPEED!!
-   Vars uitschrijven als JQuery elementen > Meer caching!!
-   
-   http://jquery-howto.blogspot.com/2008/12/caching-in-jquery.html
+   Chaching? > http://jquery-howto.blogspot.com/2008/12/caching-in-jquery.html
    
 2) Find something to load the sites in the frameholder faster > CPU power? Prerender for Chrome? Other possibilities?
 3) Mobile popup for images & urls
 4) tracking outboundlinks > GA
-5) Rethink the name of the project? 
 
 */
 
