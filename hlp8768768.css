@@ -1,0 +1,7 @@
+/* HTML 5 Reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small,  strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, header, figure, hr {margin: 0;padding: 0;border: 0;font-size: 100%;vertical-align: baseline;}
+/* Lame CSS Magic */
+.HLP_preview{background:url(external.gif) no-repeat 100% 3px;padding:0 8px 0 0;}
+body{background-color:#fff;color: #000305;font-size: 87.5%;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;line-height: 1.429;margin: 20px 0 0 20px;padding: 0;text-align: left;display: block;}
+h1{font-size: 2.429em}h3{font-size: 1.429em;}h1,h3{font-weight: 400;line-height: 1.1;margin-bottom: .8em;color:#ff4577;text-shadow: 1px 1px 1px #ccc;}ol{list-style: outside decimal;margin: 1em 0 1.5em 1.5em;}
+.closemobilepreview{font-size:35px;font-weight:bold;position:absolute;top:1px;right:5px}

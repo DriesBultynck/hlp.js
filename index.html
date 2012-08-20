@@ -1,0 +1,58 @@
+<!--
+-- AUTHORS --
+Dries Bultynck - driesbultynck.be
+Ruben Taelman - rubensworks.net
+Samuel Debruyn - about.me/samueldebruyn
+
+-- NOTICE --
+tnx to Ruben for CSS3 link detection & the mobile effort (cancelled - Server & speed issues)
+tnx to Samuel for setting up an Github for this.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Hover Link Preview</title>
+<link rel="stylesheet" href="hlp.css" type="text/css" />
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script src="http://code.jquery.com/jquery-latest.js"></script> 
+<script src="hlp.js"></script>
+</head>
+<body>
+<section>
+    <header>
+    	<h1>Hover Link Preview</h1>
+    </header>
+</section>
+<section>
+	<header>
+	<h3>Text links to websites, images or videos</h3>
+	</header>
+	<ol>
+		<li><a href="http://www.google.com" title="test Google">Google.com</a></li>
+		<li><a href="http://www.driesbultynck.be" title="test Dries">driesbultynck.be</a></li>
+		<li><a href="http://rubensworks.net" title="test Ruben">rubensworks.net</a></li>
+		<li><a href="http://bit.ly/Oh9lww" title="test url shortener">Bit.ly link</a></li>
+		<li><a href="http://www.youtube.com/watch?v=SNemrgvolBE" title="Grieten versieren met Raf Willems">Youtube</a></li>
+		<li><a href="http://www.vimeo.com/7058755" title="test met vimeo">Vimeo</a></li>
+	</ol>
+	<aside>
+	Note: can work slow on heavy website (no preload feature available)
+	<p>Some popup's don't work because of X-Frame-Options. You <a href="http://stackoverflow.com/questions/6666423/overcoming-display-forbidden-by-x-frame-options" title="X-Frame-Options my ass!">force them to overrule</a> in you want. Can not be done with JS.</p>
+	<p>Vimeo does not show a popup in Chrome > it goes to the page - not sure how to solve this one.</p>
+	</aside>
+</section>
+<section>
+	<header>
+		<h3>Image links</h3>
+	</header>
+	<ol>
+		<li><a href="http://en.wikipedia.org/wiki/Megan_Fox" title="Megan Fox"><img src="http://images.psxextreme.com/wallpapers/ps3/megan_fox_01.jpg" style="height:150px;" alt="Nu we toch bezig zijn, kunnen we zowel met iet proper testen ook dacht ik"/></a></li>
+		<li><img style="height:150px;" src="http://images.psxextreme.com/wallpapers/ps3/megan_fox_01.jpg" alt="Nu we toch bezig zijn, kunnen we zowel met iet proper testen ook dacht ik"/></li>
+	</ol>
+	<aside>
+	Youtube filmpjes worden geblokt.
+	</aside>
+</section>
+</body> 
+</html>
